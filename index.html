@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snapshot Example</title>
+    <script src="javascript.js" defer></script>
+    <style>
+        .mycanvas {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <video id="myVidPlayer" controls muted autoplay></video>
+
+    <button onclick="snapshot()">Snapshot</button>
+
+    <div class="mycanvas">
+        <h6>Captured snapshot</h6>
+        <canvas></canvas>
+    </div>
+</body>
+</html>
